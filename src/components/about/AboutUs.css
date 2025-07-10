@@ -1,0 +1,22 @@
+.about {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 32px 24px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+  color: #48cae4;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+  margin: 0;
+}

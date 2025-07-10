@@ -7,7 +7,7 @@ const NavBar = () => (
       <img src={logo} alt="Logo" height="40rem" width="65rem" />
     </div>
     <div className="nav-links">
-      <a href="#about">About Us</a>
+      <a href="#about-us">About Us</a>
       <a href="#our-team">Our Team</a>
       <a href="#contact">Contact Us</a>
     </div>
