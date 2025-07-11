@@ -27,6 +27,7 @@
   flex-direction: column;
   gap: 0.5rem;
   width: 60%;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .field {

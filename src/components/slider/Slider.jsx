@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./Slider.css";
+import aakash from "../../assets/aakash.png";
 import pexels1 from "../../assets/pexels1.jpg";
 import pexels2 from "../../assets/pexels2.jpg";
 import pexels3 from "../../assets/pexels3.jpg";
 
 const slides = [
+  {
+    image: aakash,
+    heading: "",
+    subheading: "",
+  },
   {
     image: pexels1,
     heading: "Empowering Innovation",

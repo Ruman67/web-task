@@ -7,7 +7,7 @@ import Footer from "./components/footer/footer";
 import ContactForm from "./components/contactForm/ContactForm";
 import OurTeam from "./components/team/OurTeam";
 import Slider from "./components/slider/Slider";
-
+import Weather from "./components/weather/WeatherApi";
 import AboutUs from "./components/about/AboutUs";
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route path="/contact" element={<ContactForm />} />
       </Routes>
       <Slider />
+      <Weather />
       <Footer />
     </>
   );
