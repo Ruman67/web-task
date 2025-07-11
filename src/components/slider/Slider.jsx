@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Slider.css";
+import "./slider.css";
 import aakash from "../../assets/aakash.png";
 import pexels1 from "../../assets/pexels1.jpg";
 import pexels2 from "../../assets/pexels2.jpg";
@@ -28,7 +28,7 @@ const slides = [
   },
 ];
 
-function Slider() {
+function slider() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -56,4 +56,4 @@ function Slider() {
   );
 }
 
-export default Slider;
+export default slider;

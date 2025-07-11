@@ -3,10 +3,10 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 // import AboutUs from "./components/about/AboutUs";
-// import Footer from "./components/footer/Footer.jsx";
+import Footer from "./components/footer/Footer.jsx";
 import ContactForm from "./components/contactForm/ContactForm";
-import OurTeam from "./components/team/OurTeam";
-import Slider from "./components/slider/Slider";
+import OurTeam from "./components/team/OurTeam.jsx";
+import Slider from "./components/slider/Slider.jsx";
 import Weather from "./components/weather/WeatherApi";
 import AboutUs from "./components/about/AboutUs";
 function App() {
@@ -20,7 +20,7 @@ function App() {
       </Routes>
       <Slider />
       <Weather />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
