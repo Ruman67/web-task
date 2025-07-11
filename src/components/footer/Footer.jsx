@@ -1,9 +1,9 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import { FaFacebook, FaTwitter } from "react-icons/fa";
 import { IoLogoInstagram, IoLogoLinkedin } from "react-icons/io5";
 
-function footer() {
+function Footer() {
   return (
     <div className="footer">
       <div className="footer-top">
@@ -64,4 +64,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
