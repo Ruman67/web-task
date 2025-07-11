@@ -9,7 +9,7 @@ import prajwal from "../../assets/prajwal.png";
 import prayusha from "../../assets/prayusha.png";
 import sujan from "../../assets/sujan.png";
 import { Link } from "react-router-dom";
-// Sample team data
+
 const teamMembers = [
   {
     name: "Dipesh Karki",
